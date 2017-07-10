@@ -13,7 +13,8 @@ import {
   EventRouteActivator,
   EventListResolver,
   CreateSessionComponent,
-  SessionListComponent
+  SessionListComponent,
+  DurationPipe
 } from './events/index'
 
 import { AppComponent } from './app.component';
@@ -33,7 +34,8 @@ import {AuthService} from "app/user/auth.service";
     CreateEventComponent,
     Error404Component,
     CreateSessionComponent,
-    SessionListComponent
+    SessionListComponent,
+    DurationPipe
   ],
   imports: [
     BrowserModule,
