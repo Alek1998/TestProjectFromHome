@@ -23,6 +23,7 @@ import { ToastrService } from "./events/common/toastr.service";
 import { appRoutes } from "./routes";
 import { Error404Component } from "./errors/404.component";
 import {AuthService} from "app/user/auth.service";
+import {CollapsibleWellComponent} from "./events/common/collapsible-well.component";
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import {AuthService} from "app/user/auth.service";
     Error404Component,
     CreateSessionComponent,
     SessionListComponent,
-    DurationPipe
+    DurationPipe,
+    CollapsibleWellComponent
   ],
   imports: [
     BrowserModule,
